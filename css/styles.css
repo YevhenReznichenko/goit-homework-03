@@ -5,9 +5,44 @@ background-color: #FFFFFF
 .main-title { background-color: #2E2F42;
 
 }
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.containe{
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section {
+    padding-top: 120px;
+padding-bottom: 120px;
+}
 /* header styls */
+.main-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-address {
-    font-style: normal
+    font-style: normal;
 }
 
 .logotype { text-decoration: none;
@@ -17,9 +52,32 @@ background-color: #FFFFFF
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;}
+        text-transform: uppercase;
+        margin-right: 76px;
+    }
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .logotype-studio {
     color: #2e2f42;
+}
+.list-address{
+    display: flex;
+    gap: 40px;
 }
 .list-nav-link { 
     color: #2e2f42;
@@ -60,6 +118,9 @@ background-color: #FFFFFF
 /* title styls */
 .main-title {
     background-color: #2E2F42;
+    width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
    
 }
 
@@ -69,6 +130,8 @@ background-color: #FFFFFF
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-button {color: #FFF;
 background: #4D5AE5;
@@ -102,6 +165,9 @@ background: #4D5AE5;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.section-project-list{
+    display: flex;
+}
 /*our-team  */
 .section-team-title {
     color: #2e2f42;
@@ -111,6 +177,8 @@ background: #4D5AE5;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+
+        
 }
 .section-team-name {
     color: #2e2f42;
@@ -130,9 +198,12 @@ background-color: #FFFFFF;}
         letter-spacing:0.02em;
 }
 .section-team {
-    background: #F4F4FD;
-    
+    background: #F4F4FD;    
 }
+.section-team-list{
+    display: flex;
+}
+
 /*our-portfolio  */
 .section-title-portfolio {
     color:#2e2f42;
@@ -145,6 +216,8 @@ background-color: #FFFFFF;}
 }
 .section-portfolio-list{
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
 }
 .section-portfolio-list-item { list-style-type: none;
 background-color: #FFFFFF;}
@@ -184,4 +257,5 @@ background-color: #FFFFFF;}
 .logo-footer {
     color:#F4F4FD;
 }      
+
 
