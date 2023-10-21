@@ -13,24 +13,31 @@ ul,ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    
 }
 img{
     display: block;
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-.containe{
+
+.container{
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section {
     padding-top: 120px;
@@ -40,6 +47,7 @@ padding-bottom: 120px;
 .main-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-address {
     font-style: normal;
@@ -66,6 +74,8 @@ padding-bottom: 120px;
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .list-nav {
     display: flex;
@@ -121,6 +131,7 @@ padding-bottom: 120px;
     width: 1440px;
         height: 600px;
         flex-shrink: 0;
+        padding: 188px 0 188px
    
 }
 
@@ -132,6 +143,8 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 .main-button {color: #FFF;
 background: #4D5AE5;
@@ -140,6 +153,13 @@ background: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    min-width: 169px0;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-button:focus{
     background-color: #404BBF;
@@ -167,6 +187,8 @@ background: #4D5AE5;
 }
 .section-project-list{
     display: flex;
+    gap: 24px;
+    list-style-type: none;
 }
 /*our-team  */
 .section-team-title {
@@ -177,7 +199,7 @@ background: #4D5AE5;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-
+margin-bottom: 72px;
         
 }
 .section-team-name {
@@ -187,23 +209,34 @@ background: #4D5AE5;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .section-team-list-item { list-style-type: none;
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+}
 .section-team-text {
     color: #434455;
         text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing:0.02em;
-}
+        border-radius: 0px 0px 4px 4px;
+text-align: center;
+    }
 .section-team {
     background: #F4F4FD;    
 }
 .section-team-list{
     display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+    
 }
-
+.container-team-name{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 /*our-portfolio  */
 .section-title-portfolio {
     color:#2e2f42;
@@ -213,14 +246,20 @@ background-color: #FFFFFF;}
         line-height: 1.11;
         letter-spacing:0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .section-portfolio-list{
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .section-portfolio-list-item { list-style-type: none;
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+width: calc((100% - 48px) / 3);
+}
+
 .section-portfolio-list-title {
     color:#2e2f42;
         font-size: 20px;
@@ -234,15 +273,24 @@ background-color: #FFFFFF;}
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.container-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 /* main-footer */
 .main-footer {
         background: #2E2F42;
+        padding-top: 100px;
+        padding-bottom: 100px;
 }
 .main-footer-text {
     color: #F4F4FD;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px
 }
 .main-footer-links {
     color: #4D5AE5;
@@ -253,9 +301,13 @@ background-color: #FFFFFF;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
+        display: inline-block;
+        margin-bottom: 16px;
     }
 .logo-footer {
     color:#F4F4FD;
 }      
+
+
 
 
