@@ -36,6 +36,7 @@ img{
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 15px 0 15px;
 }
 .section {
     padding-top: 120px;
@@ -44,7 +45,6 @@ img{
 /* header styls */
 .main-header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px 0 15px;
     
 }
 .header-address {
@@ -60,13 +60,12 @@ img{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
-        padding: 0 15px 0 15px;
+        
     }
 
 .main-nav {
     display: flex;
     align-items: center;
-    padding: 0 15px 0 15px;
     
 }
 .div-header{
@@ -82,15 +81,13 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 0 15px 0 15px;
 }
 .logotype-studio {
     color: #2e2f42;
 }
 .list-address{
     display: flex;
-    gap: 40px;
-    padding: 0 15px 0 15px;
+    gap: 40px
 }
 .list-nav-link { 
     color: #2e2f42;
