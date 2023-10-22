@@ -80,6 +80,7 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 0 15px 0 15px;
 }
 .logotype-studio {
     color: #2e2f42;
