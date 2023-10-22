@@ -36,7 +36,8 @@ img{
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 .section {
     padding-top: 120px;
