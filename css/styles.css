@@ -60,11 +60,13 @@ img{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        padding: 0 15px 0 15px;
     }
 
 .main-nav {
     display: flex;
     align-items: center;
+    padding: 0 15px 0 15px;
     
 }
 .div-header{
@@ -88,6 +90,7 @@ img{
 .list-address{
     display: flex;
     gap: 40px;
+    padding: 0 15px 0 15px;
 }
 .list-nav-link { 
     color: #2e2f42;
@@ -117,6 +120,7 @@ padding-bottom: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 0 15px 0 15px;
 }
 .list-address-link:focus{
     color: #404bbf;
@@ -229,6 +233,7 @@ margin-bottom: 72px;
 .section-team-list-item { list-style-type: none;
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
+flex-basis: calc((100% - 72px) / 4);
 }
 .section-team-text {
     color: #434455;
