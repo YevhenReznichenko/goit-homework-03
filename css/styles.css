@@ -44,9 +44,8 @@ padding-bottom: 120px;
 }
 /* header styls */
 .main-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
     
 }
 .header-address {
@@ -67,7 +66,7 @@ padding-bottom: 120px;
 .main-nav {
     display: flex;
     align-items: center;
-    padding: 0 15px 0 15px;
+    
 }
 .div-header{
     display: flex;
@@ -102,10 +101,14 @@ padding-bottom: 24px;
 
 }
 .list-nav-item { list-style-type: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
 .list-address-item { list-style-type: none;
+    padding-top: 24px;
+        padding-bottom: 24px;
    
 }
 .list-address-link { 
